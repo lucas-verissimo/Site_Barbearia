@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Barbearia DeMattos</title>
+		<link rel="stylesheet" href="style/reset.css">
+		<link rel="stylesheet" href="style/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<header>
+			<div class="caixa">
+				<h1><img src="img/logo.png"></h1>
+
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="produtos.html">Produtos</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<div class="banner"></div>
+
+		<main>
+			<section class="principal">
+				<h2 class="titulo-principal">Sobre a Barbearia DeMattos</h2>
+
+				<img class="utensilios" src="img/utensilios.jpg" alt="Utensilios de um barbeiro">
+		
+				<p>Localizada no coração do Riacho das Pedras a <strong>Barbearia DeMattos</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2017, a Barbearia DeMattos já é destaque na cidade e conquista novos clientes a cada dia.</p>
+
+				<p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
+
+				<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+			</section>
+
+			<section class="mapa">
+				<h3 class="titulo-principal">Nosso estabelecimento</h3>
+				<p>Nosso estabelecimento está localizado no coração do Riacho das Pedras</p>
+
+				<div class="mapa-conteudo">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.337045040827!2d-44.052896885633245!3d-19.952323044155072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6be284afccc2d%3A0x66e7a4a9c97c5a0d!2sDeMattos%20Barbearia!5e0!3m2!1spt-BR!2sbr!4v1622141192853!5m2!1spt-BR!2sbr" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+				</div>
+
+			</section>
+
+			<section class="beneficios">
+				<h3 class="titulo-principal">Benefícios</h3>
+
+				<div class="conteudo-beneficios">
+					<ul class="lista-beneficios">
+						<li class="itens">Atendimento aos Clientes</li>
+						<li class="itens">Espaço diferenciado</li>
+						<li class="itens">Localização</li>
+						<li class="itens">Profissionais Qualificados</li>
+						<li class="itens">Pontualidade</li>
+						<li class="itens">Limpeza</li>
+					</ul><img src="img/beneficios.jpg" class="imagem-beneficios">
+				</div>
+
+				<div class="video">
+					<iframe width="100%" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+
+			</section>
+		</main>
+
+		<footer>
+			<img src="img/logo-branco.png" alt="Logo da Barbearia De Mattos" id="logo-branco">
+			<p class="copyright">&copy; Copyright Barbearia DeMattos - 2021</p>
+		</footer>
+
+		<script>
+			var height_screen = ((window.innerHeight)-140).toString();
+			height_screen += "px";
+			var banner = document.querySelector(".banner");
+			banner.style.height = height_screen
+		</script>
+
+	</body>
+</html>
